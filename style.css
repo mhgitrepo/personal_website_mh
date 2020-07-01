@@ -1,0 +1,195 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+/* Hero Area */
+.js-highlight{
+  color: #EC4C7A;
+  font-weight: 700;
+  font-size: 55px;
+}
+.t-a-a{
+  margin-top: 35%;
+  padding-left: 35%;
+}
+.t-a-a h2{
+  line-height: .2;
+}
+.t-a-a h3{
+  font-size: 2.5em;
+  font-weight: 400;
+}
+.t-a-a p{
+  padding-top: 35px;
+  padding-bottom: 35px;
+  color: dimgray;
+}
+.hero-area{
+  background-image: url("images/header-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.half-width{
+  width: 50%;
+  float: left;
+}
+
+.half-width img{
+  width: 100%;
+}
+section{
+  height: 1000px;
+}
+.link-btn{
+  text-decoration: none;
+  font-size: 18px;
+  color: #fff;
+  padding: 10px 40px;
+  background-image: linear-gradient(45deg, #EC4F8F, #ED4B72);
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: .5s;
+}
+.link-btn:hover{
+  background-image: linear-gradient(45deg, #ED4B72, #EC4F8F);
+  font-size: 20px;
+}
+.i-a{
+  padding: 20% 28% 0 0;
+}
+
+/* Bio Area */
+.bio_area{
+  background-image: url("images/biography-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.t-a-bio{
+  margin-top: 28%;
+  padding-right: 35%;
+}
+.t-a-bio h2{
+  font-size: 2.5em;
+  font-weight: 400;
+}
+.t-a-bio p{
+  padding-bottom: 35px;
+  color: dimgray;
+}
+.i-bio{
+  padding: 10% 20% 20% 20%;
+}
+
+/* Latest Work */
+.latest_work{
+  background-image: url("images/latest-work-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.t-lw h2{
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  padding: 5% 0 2% 0;
+}
+.showcase{
+  padding-left: 6%;
+  margin-bottom: 28%;
+}
+.work_solo{
+  width: 30%;
+  float: left;
+  margin: 11px;
+}
+.work_solo img{
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px dimgray;
+}
+
+/* Testimonial */
+.client_section{
+  background-image: url("images/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 5%;
+}
+.client_section_heading{
+  padding-top: 6%;
+}
+.client_section_heading h3{
+  font-size: 41px;
+  font-weight: 500;
+  text-align: center;
+}
+.client_detail{
+  text-align: center;
+}
+.client_detail h5{
+  font-size: 20px;
+  line-height: 0;
+  font-weight: 500;
+  padding-top: 20px;
+}
+.client_detail_p{
+  color: dimgray;
+  line-height: 0;
+  font-size: 15px;
+}
+.client_thought p{
+  text-align: center;
+  padding-top: 30px;
+  font-size: 20px;
+}
+.contact{
+  padding: 35px 40px;
+  background-image: linear-gradient(45deg, #EC4F8F, #ED4B72);
+  border-radius: 10px;
+  width: 735px;
+  color: #fff;
+  margin: 7% 0% 0% 28%;
+}
+.contact_texts{
+  text-align: center;
+}
+.contact_texts p{
+  font-size: 18px;
+  font-weight: 400;
+}
+.p_2{
+  font-size: 22px;
+  transition: .5s;
+}
+/* .p_2:hover{
+  font-size: 30px;
+  cursor: pointer;  
+} */
+/* .p_2::before{
+  content: "✉ "
+} */
+.email_text{
+  padding: 0 1.2%;
+}
+.input_name:focus{
+  font-size: 20px;
+  font-weight: 400; 
+}
+.input_email:focus{
+  font-size: 20px;
+  font-weight: 400; 
+}
+.submit{
+  padding: 5px;
+  background-color: #F9FAFE;
+  color: #000;
+  border: dimgray;
+}
+.input_email{
+  margin-bottom: 5px;;
+}
+/* Footer */
+footer p{
+  text-align: center;
+  color: dimgray;
+  padding-bottom: 2%;
+}
